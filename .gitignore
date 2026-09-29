@@ -8,3 +8,5 @@ rit/
 .env
 mlruns/
 *.log
+mlflow.db
+mlruns/
