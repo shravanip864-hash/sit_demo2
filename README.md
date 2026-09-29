@@ -1,4 +1,4 @@
-# End-to-End MLOps Pipeline
+# End-to-End MLOps Pipeline by rohit
 
 ## Flow
 
@@ -82,6 +82,7 @@ sudo usermod -aG docker ec2-user
 Reconnect after changing the group.
 
 Security Group:
+
 - TCP 22: SSH, preferably your IP only
 - TCP 80: website/API
 
