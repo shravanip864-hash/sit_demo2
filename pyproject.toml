@@ -1,0 +1,30 @@
+[project]
+name = "mlops-house-price-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "RohitUpadhye", email = "rohitupadhye799@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "joblib>=1.6.0",
+    "mlflow>=3.16.1",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[project.scripts]
+mlops-house-price-pipeline = "mlops_house_price_pipeline:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+]
